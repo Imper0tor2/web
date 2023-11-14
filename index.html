@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Резюме начинающего программиста</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="cv">
+        <section>
+            <h1>Дружинин Артём</h1>
+            <img src="images/samurai.jpg" >
+            <h2>Начинающий разработчик</h2>
+
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch">
+                    <input type="checkbox" class="theme-switch__checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <span class="theme-switch__label">Тема</span>
+            </div>
+
+            <div class="contacts">
+                <div class="contact">
+                    <div class="contact__type">
+                        Github
+                    </div>
+                    <div class="contact__value">
+                        <a href="https://github.com/Imper0tor2/">https://github.com/Imper0tor2</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact__type">
+                        Email
+                    </div>
+                    <div class="contact__value">
+                        <a href="mailto:artem2004mama@gmail.com">artem2004mama@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                ИТ-специалист, специализируюсь на разработке информационных систем.
+                Я умею создавать приложения с функционалом, необходимым простому пользователю.
+                Моя самая большая сила — это адаптируемость к различным задачам и ситуациям.
+            </div>
+        </section>
+        <section>
+            <h3>Образование</h3>
+
+            <div class="Education">
+                <div class="Education__name"><b>ВятГУ</b></div>
+                <div class="Education__description">
+                    <div class="Education__date">01.09.2020 - Настоящее время</div>
+                    <div class="Education__company">Факультет ИСП (Информационные системы и программирование)</div>
+                    <div class="Education__details">
+                        <div class="Education__sel">За время обучения в колледже я научился:</div>
+                        <ul>
+                            <li>Создавать и работать с базами данных</li>
+                            <li>Создавать десктопные приложения</li>
+                            <li>Работать с API сайтов</li>
+                            <li>Работать в команде</li>
+                            <li>Разработке приложений на мобильные устройства</li>
+                            <li>Тестированию приложений</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Практика</h3>
+
+            <div class="experience">
+                <div class="experience__date">01.05.2023 - 28.06.2023</div>
+                <div class="experience__description">
+                    <div class="experience__name">Работа в МТС</div>
+                    <div class="experience__company">Практика</div>
+                    <div class="experience__details">
+                        <div class="Education__sel">За время прохождения практики я обучился:</div>
+                        <ul>
+                            <li>Составлению производственной документации</li>
+                            <li>Работе по плану</li>
+                            <li>Созданию сайтов</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Навыки</h3>
+            <div>
+                Python, Figma, HTML, CSS, SQL, C#, JavaScript
+            </div>
+        </section>
+
+        <section>
+            <h3>Что бы вы хотели видеть ещё?</h3>
+            <div>
+                <h3>Комментарии:</h3>
+                <ul id="skillsList"></ul>
+                <form id="addSkillForm">
+                    <input type="text" id="newSkill" placeholder="Добавить комментарий">
+                    <input type="text" id="authorInput" placeholder="Ваше имя">
+                    <button type="submit">Добавить</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src='js/script.js'></script>
+    
+</body>
+
+</html>
